@@ -1,0 +1,69 @@
+Database :
+    Contact Menu :
+        ContactCover :
+            ☐ Image
+            ☐ Title
+            ☐ Description
+        ContactVisit :
+            ☐ Image
+            ☐ Title
+            ☐ Contain
+    Blog Menu :
+        BlogCover :
+            ☐ Image
+            ☐ Title
+            ☐ Description
+        Article :
+            ☐ Title
+            ☐ Content
+            ☐ Tag
+            ☐ CategoryID
+    Portfolio Menu :
+        PortfolioCover :
+            ☐ Image
+            ☐ Title
+            ☐ Description
+        Projects :
+            ☐ Name
+            ☐ Description
+            ☐ CategoryID ( relasinya ke service bukan ya? )
+    Service Menu :
+        ServicePage :
+            ☐ Name
+        ServiceCover :
+            ☐ ServicePageID
+            ☐ Image
+            ☐ Title
+            ☐ Description
+        Service :
+            ☐ ServicePageID
+            ☐ Name
+            ☐ Description
+            ☐ CategoryID
+    About Menu :
+        AboutCover :
+            ☐ Image
+            ☐ Title
+            ☐ Description
+        About :
+            ☐ Image
+            ☐ Title
+            ☐ Description
+    Home Menu :
+        HomeCover :
+            ☐ Image
+            ☐ Title
+            ☐ Description
+        Home :
+            ☐ Image
+            ☐ Title
+            ☐ Description
+            ☐ Point ( Buat Apa )
+            ☐ Set ( di atur manual di update saja, jika di drag drop list table custom nya agak susah )
+        Client :
+            ☐ Name
+            ☐ Image
+        Feedback :
+            ☐ ClientID
+            ☐ Opinion
+    
