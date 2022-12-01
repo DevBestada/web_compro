@@ -1,0 +1,44 @@
+/* Hover Menu Services Dropdown */
+#navbar-services:hover #navbar-service-items {
+    display: block;
+}
+
+#navbar-service-items:hover {
+    display: block;
+}
+
+.header-carousel > div:first-of-type {
+    height: 90vh;
+}
+
+.img-bottom-header-carousel {
+    height: 80vh;
+}
+
+.svg-fill-white path {
+    fill: red;
+}
+
+/* .desc-footer {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+@media screen and (max-width: 426) {
+    .header-carousel > div:first-of-type {
+        height: 50vh;
+    }
+
+    .img-bottom-header-carousel {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* .img-bottom-header-carousel {
+        height: 40vh;
+    } */
+}
